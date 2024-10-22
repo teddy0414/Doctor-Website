@@ -1,0 +1,312 @@
+/* Hero Section Styles */
+.hero {
+    padding: 60px 0;
+    background: #f8f9fa;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.hero .btn-primary {
+    font-size: 1rem;
+    padding: 0.75rem 1.25rem;
+}
+
+
+
+/* About Section Styles */
+.about img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Speciality */
+.Speciality{
+    list-style-type: disc;
+    padding: 0;
+}
+
+/* Services Section Styles */
+.services p {
+    font-size: 1rem;
+}
+.services ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.services li {
+    padding: 0.5rem 0;
+    font-size: 1rem;
+}
+
+.services strong {
+    font-weight: bold;
+}
+
+.testimonials {
+    padding: 2rem;
+    background-color: #f9f9f9;
+}
+
+.testimonial-heading {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 1rem; /* Add some padding to prevent content from touching the edges */
+}
+
+/* testimonal style start */
+
+.testimonial {
+    border-left: 4px solid #007BFF;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.testimonial p {
+    font-style: italic;
+}
+
+.testimonial cite {
+    display: block;
+    text-align: right;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.testimonial-link {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.testimonial-link:hover {
+    text-decoration: underline;
+}
+
+/* contact */
+.contact {
+    padding: 2rem 1rem;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.contact-content h2 {
+    font-size: 1.5rem;
+}
+
+.contact-content p {
+    font-size: 1rem;
+}
+
+.contact-content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-content ul li {
+    margin-bottom: 0.5rem;
+}
+
+.phone-number {
+    color: red;
+    font-size: larger;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.contact-image {
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 0.5rem;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+footer a:hover {
+    color: #337ab7;
+  }
+/* Media Queries for Responsive Adjustments */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+    
+    .hero p {
+        font-size: 1rem;
+    }
+    
+    .hero .btn-primary {
+        font-size: 0.875rem;
+        padding: 0.5rem 1rem;
+    }
+    .row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .col-md-6 {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .section-heading {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 0.9rem;
+    }
+    .testimonial {
+        padding: 0.75rem;
+    }
+
+    .testimonial-heading {
+        font-size: 1.5rem;
+    }
+
+    .container {
+        padding: 0 0.5rem;
+    }
+    .contact-content h2 {
+        font-size: 1.25rem;
+    }
+
+    .contact-content p {
+        font-size: 0.875rem;
+    }
+
+    .contact-content ul li {
+        font-size: 0.875rem;
+    }
+
+    .btn-primary {
+        padding: 0.5rem;
+        font-size: 0.875rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero h1 {
+        font-size: 1.75rem;
+    }
+    
+    .hero p {
+        font-size: 0.875rem;
+    }
+    
+    .hero .btn-primary {
+        font-size: 0.75rem;
+        padding: 0.5rem 0.75rem;
+    }
+    
+    .hero-image {
+        max-width: 100%;
+        height: auto;
+    }
+    .section-heading {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    p {
+        font-size: 0.8rem;
+    }
+    .testimonial {
+        padding: 0.5rem;
+    }
+
+    .testimonial-heading {
+        font-size: 1.25rem;
+    }
+
+    .container {
+        padding: 0 0.25rem;
+    }
+
+    .testimonial p {
+        font-size: 0.9rem;
+    }
+
+    .testimonial cite {
+        font-size: 0.8rem;
+    }
+    .contact-content h2 {
+        font-size: 1rem;
+    }
+
+    .contact-content p {
+        font-size: 0.75rem;
+    }
+
+    .contact-content ul li {
+        font-size: 0.75rem;
+    }
+
+    .btn-primary {
+        padding: 0.5rem;
+        font-size: 0.75rem;
+    }
+
+    footer ul li {
+        display: block;
+        margin: 0.5rem 0;
+    }
+
+    footer a {
+        font-size: 0.875rem;
+    }
+}
